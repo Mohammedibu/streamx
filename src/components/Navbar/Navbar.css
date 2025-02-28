@@ -1,0 +1,80 @@
+.navbar{
+     width: 100%;
+    padding: 7px 6%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    font-size: 14px;
+    color: #e5e5e5;
+    background-image: linear-gradient(180deg, rgba(0,0,0,0,7) 10%, transparent);
+    z-index: 1;
+
+    /* animation */
+    transition-timing-function: ease-in;
+    transition: all 1s;
+}
+.nav__black{
+    background-color:#111;
+}
+.logoset{
+    max-width: 120px;
+}
+
+.navbar-left{
+    display: flex;
+    align-items: center;
+    gap: 250px;
+}
+.navbar-left img{
+    width: 150px;
+    padding-right: 5px;
+
+    
+    
+}
+.navbar-left ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-size:17px;
+    font-style:normal;
+    font-weight: 400;
+    
+}
+.navbar-left  ul li{
+    cursor: pointer;
+}
+.navbar-right{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.navbar-right .icons{
+    width: 20px;
+    cursor: pointer;
+}
+.p {
+    font-weight: 400;
+    font-size: 17px;
+    cursor: pointer;
+}
+.navbar-right .sign{
+    background-color: red;
+    width: 72px;
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    border-radius: 17px;
+    font-weight: 300;
+}
+
+.lan{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    font-size:17px ;
+
+}
