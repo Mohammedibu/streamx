@@ -1,0 +1,2 @@
+# streamx
+Netflic-Clone
